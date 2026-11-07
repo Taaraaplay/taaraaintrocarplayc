@@ -1,0 +1,9 @@
+Package: com.vn.carplayintro
+Name: CarPlay Intro
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Description: Phat video intro moi khi CarPlay ket noi
+Maintainer: CarPlay Intro
+Author: CarPlay Intro
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
