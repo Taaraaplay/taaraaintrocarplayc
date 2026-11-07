@@ -7,6 +7,6 @@ CarIntroPrefs_FILES = CIRootListController.m
 CarIntroPrefs_FRAMEWORKS = UIKit PhotosUI
 CarIntroPrefs_PRIVATE_FRAMEWORKS = Preferences
 CarIntroPrefs_INSTALL_PATH = /Library/PreferenceBundles
-CarIntroPrefs_CFLAGS = -fobjc-arc
+CarIntroPrefs_CFLAGS = -fobjc-arc -Wno-deprecated-declarations -Wno-error
 
 include $(THEOS_MAKE_PATH)/bundle.mk
