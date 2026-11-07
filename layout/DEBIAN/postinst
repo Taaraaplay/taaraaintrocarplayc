@@ -1,0 +1,5 @@
+#!/bin/sh
+mkdir -p /var/mobile/Library/CarIntro
+chown -R mobile:mobile /var/mobile/Library/CarIntro
+chmod 755 /var/mobile/Library/CarIntro
+exit 0
