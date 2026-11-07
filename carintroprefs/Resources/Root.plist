@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>title</key><string>CarPlay Intro</string>
+<key>items</key><array>
+  <dict><key>cell</key><string>PSGroupCell</string><key>label</key><string>Cai dat chung</string></dict>
+  <dict>
+    <key>cell</key><string>PSSwitchCell</string>
+    <key>label</key><string>Bat tweak</string>
+    <key>key</key><string>enabled</string>
+    <key>default</key><true/>
+    <key>defaults</key><string>com.vn.carplayintro</string>
+  </dict>
+  <dict>
+    <key>cell</key><string>PSSwitchCell</string>
+    <key>label</key><string>Tat tieng video</string>
+    <key>key</key><string>muted</string>
+    <key>default</key><false/>
+    <key>defaults</key><string>com.vn.carplayintro</string>
+  </dict>
+  <dict>
+    <key>cell</key><string>PSSwitchCell</string>
+    <key>label</key><string>Lap day man hinh (cat vien)</string>
+    <key>key</key><string>fill</string>
+    <key>default</key><true/>
+    <key>defaults</key><string>com.vn.carplayintro</string>
+  </dict>
+  <dict><key>cell</key><string>PSGroupCell</string><key>label</key><string>Video intro</string>
+        <key>footerText</key><string>Nen dung video 800x480 (hoac 1600x960), codec H.264. Cham vao man hinh de bo qua intro.</string></dict>
+  <dict><key>cell</key><string>PSButtonCell</string><key>label</key><string>Chon video tu Thu vien</string><key>action</key><string>chooseVideo</string></dict>
+  <dict><key>cell</key><string>PSButtonCell</string><key>label</key><string>Phat thu ngay</string><key>action</key><string>testPlay</string></dict>
+  <dict><key>cell</key><string>PSButtonCell</string><key>label</key><string>Xoa video</string><key>action</key><string>removeVideo</string></dict>
+</array>
+</dict></plist>
