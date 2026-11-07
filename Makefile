@@ -8,7 +8,7 @@ include $(THEOS)/makefiles/common.mk
 TWEAK_NAME = CarIntro
 CarIntro_FILES = Tweak.x
 CarIntro_FRAMEWORKS = UIKit AVFoundation
-CarIntro_CFLAGS = -fobjc-arc
+CarIntro_CFLAGS = -fobjc-arc -Wno-deprecated-declarations -Wno-error
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 SUBPROJECTS += carintroprefs
